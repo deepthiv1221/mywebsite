@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            margin: 15px;
+            padding: 20px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 600px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .card img, .card embed {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        .card a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #ff4b2b;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .card a:hover {
+            background-color: #6bff95;
+        }
+        button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #6bff95;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Certifications</h1>
+
+        <!-- Certification Card 1 - JPG Image -->
+        <div class="card">
+            <h3>Certification 1</h3>
+            <img src="python certi.jpg" alt="Certification 1">
+            <a href="python certi.jpg" target="_blank">View Full Image</a>
+        </div>
+
+        <!-- Certification Card 2 - JPG Image -->
+        <div class="card">
+            <h3>Certification 2</h3>
+            <img src="webdev certificate.jpg" alt="Certification 2">
+            <a href="webdev certificate.jpg" target="_blank">View Full Image</a>
+        </div>
+        <!-- Certification Card 3 - JPG Image -->
+        <div class="card">
+            <h3>Certification 3</h3>
+            <img src="dsa.jpg" alt="Certification 2">
+            <a href="dsa.jpg" target="_blank">View Full Image</a>
+        </div>
+
+        <!-- Certification Card 4 - PDF File -->
+        <div class="card">
+            <h3>Certification 4</h3>
+            <embed src="imitation game.pdf" type="application/pdf" width="100%" height="400px">
+            <a href="path/to/certification3.pdf" target="_blank">Download PDF</a>
+        </div>
+        <!-- Certification Card 5- PDF File -->
+        <div class="card">
+            <h3>Certification 5</h3>
+            <embed src="./deepthi v.pdf" type="application/pdf" width="100%" height="400px">
+            <a href="./deepthi v.pdf" target="_blank">Download PDF</a>
+        </div>
+        <!-- Certification Card 6 - PDF File -->
+        <div class="card">
+            <h3>Certification 6</h3>
+            <embed src="./Deepthi v (1).pdf" type="application/pdf" width="100%" height="400px">
+            <a href="./Deepthi v (1).pdf" target="_blank">Download PDF</a>
+        </div>
+        <!-- Certification Card 7 - JPG Image -->
+        <div class="card">
+            <h3>Certification 7</h3>
+            <img src="./1734878998622-certificate (1).png" alt="Certification 2">
+            <a href="./1734878998622-certificate (1).png" target="_blank">View Full Image</a>
+        </div>
+        <!-- Certification Card 8 - JPG Image -->
+        <div class="card">
+            <h3>Certification 8</h3>
+            <img src="./1738593256421-certificate.png" alt="Certification 2">
+            <a href="./1738593256421-certificate.png" target="_blank">View Full Image</a>
+        </div>
+
+        <button onclick="location.href='index.html'">Back to Homepage</button>
+    </div>
+</body>
+</html>

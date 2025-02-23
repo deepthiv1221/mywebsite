@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepthi V | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #ff6b6b, #f7b42c, #6bff95, #4cb8c4);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            color:white;
+            text-align: center;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            transition: all 0.5s ease-in-out;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid white;
+            transition: transform 0.3s;
+        }
+        .profile img:hover {
+            transform: scale(1.1);
+        }
+        .options button {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .options button:hover {
+            background-color: #6bff95;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section id="home" class="section">
+            <div class="profile">
+                <img src="photo.png" alt="Deepthi V">
+                <h1>Deepthi V</h1>
+                <p>3rd-year 🚀AIML & Web Development Enthusiast | Building intelligent, user-centric solutions with cutting-edge tech. Passionate about transforming ideas into interactive experiences. Always learning, always innovating!</p>
+                <div class="contact">
+                
+                    <p>✉️ Email: <a href="mailto:deepthivijaykumar21@gmail.com">deepthivijaykumar21@gmail.com</a></p>
+                    <p>🔗 <a href="https://www.linkedin.com/in/deepthiv1221" target="_blank">LinkedIn</a></p>
+                    <p>💻 <a href="https://github.com/deepthiv1221" target="_blank">GitHub</a></p>
+                </div>
+                <div class="options">
+                    <button onclick="location.href='projects.html'">Projects</button>
+                    <button onclick="location.href='certifications.html'">Certifications</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
